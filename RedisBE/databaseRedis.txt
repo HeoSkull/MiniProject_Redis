@@ -1,0 +1,5 @@
+HMSET 0345994791 fullname "Tran Nguyen Vinh" firstname "Vinh" lastname "Tran" phonenumber 0345994791 email "trannguyenvinh@gmail.com"
+HMSET 0906817773 fullname "Ho Nguyen Thien An" firstname "An" lastname "Ho Nguyen" phonenumber 0906817773 email "honguyenthienan@gmail.com"
+HMSET 0764686044 fullname "Le Tan Phat" firstname "Phat" lastname "Le" phonenumber 0764686044 email "letanphat@gmail.com"
+HMSET 0935415154 fullname "Nguyen Tan Phat" firstname "Phat" lastname "Nguyen" phonenumber 0935415154 email "nguyentanphat@gmail.com"
+HMSET 0345994010 fullname "Tran Van Than" firstname "Than" lastname "Tran" phonenumber 0345994010 email "tranvanthan@gmail.com"

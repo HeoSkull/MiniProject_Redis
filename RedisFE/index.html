@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý nhân viên</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="display: flex; justify-content: center;">Quản lý nhân viên</h1>
+
+        <div>
+            <h2>Thêm nhân viên</h2>
+            <input type="text" id="addFullname" placeholder="Họ và tên">
+            <input type="text" id="addPhonenumber" placeholder="Số điện thoại">
+            <input type="text" id="addFirstname" placeholder="Tên">
+            <input type="text" id="addLastname" placeholder="Họ">
+            <input type="email" id="addEmail" placeholder="Email">
+            <button onclick="addNhanVien()">Thêm nhân viên</button>
+        </div>
+
+        <div>
+            <h2>Cập nhật thông tin nhân viên</h2>
+            <input type="text" id="updatePhonenumber" placeholder="Số điện thoại">
+            <input type="text" id="updateFullname" placeholder="Họ và tên">
+            <input type="text" id="updateFirstname" placeholder="Tên">
+            <input type="text" id="updateLastname" placeholder="Họ">
+            <input type="email" id="updateEmail" placeholder="Email">
+            <button onclick="updateNhanVien()">Cập nhật nhân viên</button>
+        </div>
+
+        <div>
+            <h2>Xóa nhân viên</h2>
+            <input type="text" id="deletePhonenumber" placeholder="Số điện thoại">
+            <button onclick="deleteNhanVien()">Xóa nhân viên</button>
+        </div>
+
+        <div>
+            <h2>Lấy thông tin nhân viên</h2>
+            <input type="text" id="getPhonenumber" placeholder="Số điện thoại">
+            <button onclick="getNhanVienByPN()">Lấy thông tin nhân viên</button>
+            <pre id="result"></pre>
+        </div>
+
+        <div>
+            <h2>Lấy thông tin tất cả nhân viên</h2>
+            <button onclick="getAllNhanVien()">Lấy tất cả nhân viên</button>
+            <pre id="allResults"></pre>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
